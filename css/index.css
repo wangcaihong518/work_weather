@@ -1,0 +1,348 @@
+html,body,header,section,div,span,img,p,ul,li {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+i {
+	font-style: normal;
+}
+.
+body {
+	background-color: #f5f5f5;
+}
+.wea {
+	/*display: none;*/
+}
+p.iconfont {
+	color: purple;
+	line-height: 0.7rem;
+	font-size: 0.5rem;
+	font-weight: bold;
+}
+/*main开始*/
+section {
+	position: relative;
+	width: 100%;
+	height: 9.56rem;
+	background-image: linear-gradient(to bottom,#3bbdff,#46e7ff);
+}
+section > img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.city {
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.air {
+	width: 1.46rem;
+	height: 0.87rem;
+	background-color: #f1ab62;
+	border-radius: 0.16rem;
+	margin-left: 0.18rem;
+	padding: 0.18rem;
+	font-size: 0.2rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.deg {
+	text-align: center;
+}
+.deg > span {
+	font-size: 0.9rem;
+	color: #fff;
+}
+.deg sup {
+	color: #fff;
+	font-size: 0.36rem;
+}
+.status {
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.des {
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.48rem;
+}
+.des > span {
+	font-size: 0.21rem;
+}
+.warm_prompt {
+	font-size: 0.27rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.54rem;
+}
+/*main结束 */
+/*d_a_t开始*/
+.d_a_t {
+	width: 100%;
+	height: 2.04rem;
+	background-color: #fff;
+	border-top: 0.01rem solid #dedede;
+	border-bottom: 0.01rem solid #dedede;
+	padding: 0.42rem 0.5rem;
+}
+.d_a_t li {
+	height: 1.02rem;
+	float: left;
+	padding: 0 0.44rem;
+}
+.d_a_t li:first-child {
+	width: 3.3rem;
+}
+.d_a_t li:last-child {
+	width: 3.2rem;
+	border-left: 0.02rem solid #e5e5e5;
+}
+.d_a_t p {
+	display: flex;
+	justify-content: space-between;
+}
+.d_a_t p.top {
+	font-size: 0.25rem;
+	color: #4f4f4f;
+	line-height: 0.5rem;
+}
+.d_a_t p.bottom {
+	font-size: 0.2rem;
+	color: #4f4f4f;
+	line-height: 0.5rem;
+}
+.d_a_t img {
+	float: right;
+	display: block;
+	width: 0.56rem;
+	height: 0.56rem;
+	margin-top: -0.5rem;
+}
+/*d_a_t结束*/
+/*eve_hour开始*/
+.eve_hour {
+	display: flex;
+	width: 100%;
+	height: 2.72rem;
+	background-color: #fff;
+	border-top: 0.01rem solid #e3e3e3;
+	border-bottom: 0.01rem solid #e3e3e3;
+	margin: 0.2rem 0;
+	padding-top: 0.61rem;
+	padding-bottom: 0.56rem;
+	overflow-x: auto;
+}
+.eve_hour li {
+	display: flex;
+	flex-shrink: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 1.37rem;
+	height: 100%;
+	font-size: 
+}
+.eve_hour li p {
+	text-align: center;
+}
+.eve_hour li p.hour {
+	font-size: 0.16rem;
+	color: #9d9d9d;
+}
+.eve_hour li p.deg {
+	font-size: .19rem;
+	color: #4a4a4a;
+}
+.eve_hour li img {
+	display: block;
+	width: 0.56rem;
+	height: 0.56rem;
+	/*background: url("../img/0.png") no-repeat center/cover;*/
+}
+/*eve_hour结束*/
+/*eve_day开始*/
+.eve_day {
+	display: flex;
+	width: 100%;
+	height: 7.8rem;
+	background-color: #fff;
+	padding-top: 0.5rem;
+	padding-bottom: 0.65rem;
+	overflow-x: auto;
+	border-top: 0.01rem solid #e3e3e3;
+	border-bottom: 0.01rem solid #e3e3e3;
+}
+.eve_day li {
+	height: 100%;
+	display: flex;
+	flex-shrink: 0;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.eve_day li p {
+	text-align: center;
+}
+.eve_day li p.style {
+	font-size: 0.22rem;
+	color: #959595;
+}
+.eve_day li p.date {
+	font-size: 0.18rem;
+	color: #959595;
+}
+.eve_day li p.des {
+	font-size: 0.25rem;
+	color: #3f3f3f;
+}
+.eve_day li {
+	width: 1.26rem;
+}
+.eve_day li p.deg {
+	font-size: 0.2rem;
+	color: #707070;
+}
+.eve_day li p.deg sup {
+	font-size: 0.4rem;
+}
+/*eve_day结束*/
+/*footer开始*/
+.footer {
+	width: 100%;
+	height: 3.78rem;
+	background-color: #fff;
+	margin-top: 0.2rem;
+	border-top: 0.01rem solid #e3e3e3;
+	border-bottom: 0.01rem solid #e3e3e3;
+}
+.footer li {
+	width: 1.87rem;
+	height: 1.88rem;
+	float: left;
+	border-bottom: 0.01rem solid #e0e0e0;
+	border-right: 0.01rem solid #e0e0e0;
+}
+.footer li:nth-child(4n) {
+	border-right: none;
+}
+.footer li:nth-child(n+5) {
+	border-bottom: none;
+}
+.footer p {
+	text-align: center;
+}
+.footer .wea_con {
+	font-size: 0.26rem;
+	color: #4b4b4b;
+	line-height: 0.5rem;
+}
+.footer .warm {
+	font-size: 0.22rem;
+	color: #969696;
+	line-height: .42rem;
+}
+/*footer结束*/
+/*mark开始*/
+.mark {
+	font-size: 0.2rem;
+	color: #b9b9b9;
+	line-height: 0.76rem;
+	text-align: center;
+}
+/*mark结束*/
+/*search_top开始*/
+.search {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	display: none;
+}
+.search .top {
+	width: 100%;
+	height:1.29rem; 
+	padding: 0 0.25rem;
+	border-bottom: 0.01rem solid #e0e0e0;
+	margin-bottom: 0.2rem;
+}
+.search .top .h_bottom {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.search .top input {
+	display: block;
+	width: 5.97rem;
+	height: 0.59rem;
+	background-color: #f2f2f2;
+	border: none;
+	outline: none;
+	border-radius: 0.59rem;
+	padding-left: 0.2rem;
+	margin-top: 0.3rem;
+}
+::-webkit-input-placeholder {
+	font-size: 0.25rem;
+	color: #777777;
+}
+.search .top .h_bottom button {
+	font-size: 0.24rem;
+	color: #313131;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	margin-top: 0.3rem;
+}
+/*search_top结束*/
+/*search_bottom开始*/
+/*.search_bottom {
+	width: 100%;
+	padding: 0 0.25rem;
+}*/
+.wrap {
+	overflow: hidden;
+	padding: 0 0.25rem;
+}
+.hotsenic_text {
+	font-size: 0.24rem;
+	color: #343434;
+	line-height: 0.8rem;
+	padding-left: 0.25rem;
+	clear: both;
+}
+ul.hotscenic1 {
+	overflow: hidden;
+}
+.hotscenic1 li {
+	float: left;
+	display: block;
+	text-decoration: none;
+	width: 2.19rem;
+	height: 0.55rem;
+	border-radius: 0.55rem;
+	margin-right: 0.21rem;
+	margin-bottom: 0.23rem;
+	background-color: #f2f2f2;
+	text-align: center;
+	line-height: 0.55rem;
+	font-size: 0.22rem;
+	color: #545454;
+}
+.hotscenic1 li:nth-child(3n){
+	margin-right: 0;
+}
+/*search_bottom结束*/
