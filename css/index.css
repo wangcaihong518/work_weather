@@ -145,6 +145,10 @@ section > img {
 	padding-bottom: 0.56rem;
 	overflow-x: auto;
 }
+.eve_hour::-webkit-scrollbar {
+	width:0;
+	height: 0;
+}
 .eve_hour li {
 	display: flex;
 	flex-shrink: 0;
@@ -184,6 +188,10 @@ section > img {
 	overflow-x: auto;
 	border-top: 0.01rem solid #e3e3e3;
 	border-bottom: 0.01rem solid #e3e3e3;
+}
+.eve_day::-webkit-scrollbar {
+	width: 0;
+	height: 0;
 }
 .eve_day li {
 	height: 100%;
